@@ -4,9 +4,13 @@ This container runs a Data Crow Server
 Data Crow is a free software collection tool designed to catalog your collections or keep your inventory ([www.datacrow.net](http://www.datacrow.net)).
 Data Crow is manteined by https://sourceforge.net/u/rwaals/
 
+<br/>
+
 ### Prereqs to Run Data Crow Server Container
 ---
 * docker Community Edition ([Docker](https://www.docker.com))
+
+<br/>
 
 ### How to Run This Image
 ---
@@ -30,6 +34,7 @@ The above command will:
 * open port 8080 for web navigation, port 9000 and 9001 for Data Crow Client to connect
 * use 2048Mb (2Gb) for java (Tomcat)
 
+<br/>
 
 ### Environment Variables
 ---
@@ -42,6 +47,8 @@ The following environment variables can be passed along the container in case yo
 | PORT | Port used for Data Crow Client to connect | 9000 |
 | IMAGESERVERPORT | Port used for Data Crow Client to connect the images | 9001 |
 | WEBSERVERPORT | Port used to connect via browser | 8080 |
+
+<br/>
 
 ### Support
 ---
